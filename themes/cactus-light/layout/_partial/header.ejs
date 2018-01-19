@@ -11,17 +11,19 @@
     <a class="nav" href="<%- url_for(theme.nav['Projects']) %>">Projects</a>
   </div>
   <div id="title">
-    <a href="<%- url_for("/") %>" >
+    <a href="<%- url_for(" / ") %>">
       <h1>
         <span class="first">A</span>
         <span class="after">L</span>
         <span class="last">V</span>
       </h1>
-      <h2><%= config.subtitle %></h2>
+      <h2>
+        <%= config.subtitle %>
+      </h2>
     </a>
   </div>
   <div class="tal">
-    <a class="nav" href="<%- url_for(theme.nav['About']) %>">About</a>
+    <a class="nav" href="<%- url_for(theme.nav['About']) %>">About me</a>
   </div>
-  
+
 </header>
