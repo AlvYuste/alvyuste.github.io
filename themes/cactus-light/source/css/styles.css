@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Jaapokki';
+  font-style: normal;
+  src: local('Jaapokki Regular'), url(jaapokki-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Jaapokki Enchance';
+  font-style: normal;
+  src: local('Jaapokkienchance Regular'), url(jaapokkienchance-regular.ttf) format('truetype');
+}
