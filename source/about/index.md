@@ -7,7 +7,7 @@ I'm Alvaro.
 
 I am a **creator**.
 
-I create rainbow unicorn software at **Nitsnets**.
+I create crystal clear software at **Suez**.
 
 I studied **Multimedia Engineering** at University of Alicante.
 
