@@ -1,0 +1,55 @@
+<% var cv = config.cv %>
+<section class="cv">
+  <article class="cv-info">
+    <img class="cv-info__image" src="<%- gravatar(cv.contact.gravatar) %>" />
+    <h2 class="cv-info__name"><%- cv.contact.who %></h2>
+    <p class="cv-info__role"><%- cv.contact.what %></p>
+    <p class="cv-info__email"><%- cv.contact.email %></p>
+    <ul class="cv-info__social">
+      <% for(var i in cv.contact.social) { %>
+      <li>
+        <a
+          class="icon"
+          target="_blank"
+          href="<%- url_for(cv.contact.social[i]) %>"
+          title="<%= i %>"
+        >
+          <i class="fa fa-<%= i %>"></i>
+        </a>
+      </li>
+      <% } %>
+    </ul>
+  </article>
+  <article>
+    <h2 class="cv__header">Currently</h2>
+    <ul class="cv__grid">
+      <% cv.current.map(item => { %>
+        <%- partial('_partial/cv_item', { item }) %>
+      <% }); %>
+    </ul>
+  </article>
+  <article>
+    <h2 class="cv__header">Experience</h2>
+    <ul class="cv__grid">
+      <% cv.experience.map(item => { %>
+        <%- partial('_partial/cv_item', { item }) %>
+      <% }); %>
+    </ul>
+  </article>
+  <article>
+    <h2 class="cv__header">Education</h2>
+    <ul class="cv__grid">
+      <% cv.education.map(item => { %>
+        <%- partial('_partial/cv_item', { item }) %>
+      <% }); %>
+    </ul>
+  </article>
+  <article>
+    <h2 class="cv__header">Main skills</h2>
+    <ul class="cv__list">
+      <% cv.skills.map(skill => { %>
+      <li class="cv__list-item"><%- skill %></li>
+      <% }) %>
+    </ul>
+  </article>
+</section>

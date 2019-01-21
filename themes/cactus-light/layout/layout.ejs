@@ -10,6 +10,9 @@
           <%- partial('_partial/header') %>
         <% } %>
         <%- body %>
+        <% if (page.layout==='product')  {%>
+          <%- partial('cv.ejs') %>
+        <% } %>
     </div>
     <% if (is_post()) { %>
       <%- partial('_partial/post/actions_mobile') %>

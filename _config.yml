@@ -5,8 +5,7 @@
 # Site
 title: Alv
 subtitle: Yuste
-description:
-  Hello! I'm Alvaro and I love **creating**. 
+description: Hello! I'm Alvaro and I love **creating**.
 
   I achieve it by **coding**, composing **music** and **writing**.
 author: Álvaro Yuste
@@ -45,16 +44,16 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: Writing
 category_map:
@@ -83,3 +82,92 @@ theme: cactus-light
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+cv:
+  contact:
+    who: Álvaro Yuste Torregrosa
+    what: Creative Developer
+    where: Alicante, Spain
+    email: jobs@alvaroyuste.com
+    gravatar: hola@alvaroyuste.com
+    social:
+      github: http://github.com/alvyuste
+      twitter: http://twitter.com/alvyuste
+      facebook: https://www.facebook.com/AlvYuste
+      linkedin: https://www.linkedin.com/in/alvaroyuste/
+  current:
+    - who: SUEZ S.A.
+      what: Frontend Architect
+      when: Since Mar 2018
+      where: Alicante
+      image: /images/suez.jpg
+    - who: University of Alicante
+      what: Teacher
+      when: Since Oct 2014
+      where: Alicante
+      image: /images/ua.jpg
+    - who: Alicante Frontend
+      what: Cofounder
+      when: Since Oct 2016
+      where: Alicante
+      image: /images/alicantefrontend.jpg
+  experience:
+    - who: Nitsnets S.L.
+      what: Frontend Engineer
+      when: Mar 2016-Mar 2018
+      where: Alicante
+      image: /images/nitsnets.jpg
+    - who: Sonneil S.L.
+      what: CTO
+      when: Jan 2015-Mar 2016
+      where: Alicante
+      image: /images/sonneil.jpg
+    - who: Iristrace B.V.
+      what: Dev & Partner
+      when: Jan 2014-Jan 2018
+      where: Amsterdam
+      image: /images/iristrace.jpg
+    - who: Nanonino
+      what: Software Dev
+      when: Apr 2013-Jan 2014
+      where: Alicante
+      image: /images/nanonino.jpg
+  awards:
+    - who: Instant Banking Hack Day
+      what: Best IT Development
+      when: Feb 2015
+      where: Alicante
+      image: /images/bancosabadell.jpg
+    - who: Imagine Express
+      what: Dreammer
+      when: Feb 2015
+      where: Barcelona, Paris and London
+      image: /images/imagine.png
+    - who: Fundeun. Nuevas Ideas Empresariales.
+      what: Best IT Company
+      when: July 2014
+      where: Alicante
+      image: /images/fundeun.jpg
+    - who: Startupbootcamp
+      what: Alumni
+      when: Since Apr 2014
+      where: Amsterdam
+      image: /images/sbc.png
+  education:
+    - who: University of Alicante
+      what: Multimedia Engineering Degree
+      when: 2010-2014
+      where: Alicante
+      image: /images/ua.jpg
+    - who: Invattur
+      what: IT in Turism (Advanced)
+      when: 2013-2014
+      where: Benidorm
+      image: /images/invattur.jpg
+  skills:
+    - UX focused, Design Thinking and problem solving
+    - Experience with microservices and DevOps
+    - Multidisciplinary vision with design, business and coding
+    - Javascript Fullstack (Angular/React, Nodejs, MongoDB)
+    - System modeling, documentation and teaching
+    - Beautiful, performant and secure coding

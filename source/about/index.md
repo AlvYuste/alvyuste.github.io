@@ -11,4 +11,4 @@ I create crystal clear water software at **Suez**.
 
 I studied **Multimedia Engineering** at University of Alicante.
 
-I play **piano**, **guitar** and (starting now with) **xaphoon** to de-stress.
+I play **piano**, **guitar**, **xaphoon** and **cajón** to de-stress.

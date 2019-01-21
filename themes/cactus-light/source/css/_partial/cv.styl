@@ -1,0 +1,42 @@
+.cv
+  &__header
+    border-top: 2px solid $color-grey
+    margin-bottom: 2rem !important;
+    padding-top: 1rem;
+
+  &-info
+    & *, &
+      text-align: center
+    ul
+      list-style: none
+      padding: 0
+
+    &__image
+      border-radius: 50%
+      border: 2px solid $color-text
+    &__social
+      display: flex
+      justify-content: center
+      & > * 
+        margin: 0.5rem
+  
+  &__grid
+    @media (min-width: 600px)
+      display: flex
+
+    list-style: none
+    padding: 0
+    & *, &
+      text-align: center
+      
+    &-item
+      flex: 1
+      text-align: center
+      margin-bottom: 2rem;
+      
+      &-image
+        height: 5rem
+        max-width: 100%
+      &-info
+        font-size: 0.75rem
+        color: $color-grey
