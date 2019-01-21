@@ -1,4 +1,7 @@
 .cv
+  @media print
+    p
+      margin: 0
   &__header
     border-top: 2px solid $color-grey
     margin-bottom: 2rem !important;
@@ -21,6 +24,8 @@
         margin: 0.5rem
   
   &__grid
+    @media print
+      display: flex
     @media (min-width: 600px)
       display: flex
 
