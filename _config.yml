@@ -6,7 +6,6 @@
 title: Alv
 subtitle: Yuste
 description: Hello! I'm Alvaro and I love **creating**.
-
   I achieve it by **coding**, composing **music** and **writing**.
 author: Álvaro Yuste
 language: en_EN
@@ -86,7 +85,7 @@ deploy:
 cv:
   contact:
     who: Álvaro Yuste Torregrosa
-    what: Creative Developer
+    what: Creative Engineer
     where: Alicante, Spain
     email: jobs@alvaroyuste.com
     gravatar: hola@alvaroyuste.com
@@ -96,22 +95,32 @@ cv:
       facebook: https://www.facebook.com/AlvYuste
       linkedin: https://www.linkedin.com/in/alvaroyuste/
   current:
-    - who: SUEZ S.A.
-      what: Frontend Architect
-      when: Since Mar 2018
-      where: Alicante
-      image: /images/suez.jpg
-    - who: University of Alicante
+    - who: Spotahome
+      what: Engineering Manager
+      when: Since March 2019
+      where: Madrid
+      image: /images/spotahome.png
+    - who: Open Webinars
       what: Teacher
-      when: Since Oct 2014
-      where: Alicante
-      image: /images/ua.jpg
+      when: Since May 2019
+      where: Madrid
+      image: /images/openwebinars.png
     - who: Alicante Frontend
       what: Cofounder
       when: Since Oct 2016
       where: Alicante
       image: /images/alicantefrontend.jpg
   experience:
+    - who: SUEZ S.A.
+      what: Frontend Architect
+      when: Mar 2018 - Mar 2019
+      where: Alicante
+      image: /images/suez.jpg
+    - who: University of Alicante
+      what: Teacher
+      when: Oct 2014 - Jun 2018
+      where: Alicante
+      image: /images/ua.jpg
     - who: Nitsnets S.L.
       what: Frontend Engineer
       when: Mar 2016-Mar 2018

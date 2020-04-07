@@ -10,25 +10,27 @@
   &-info
     & *, &
       text-align: center
-    ul
-      list-style: none
-      padding: 0
 
+    
+    
     &__image
       border-radius: 50%
       border: 2px solid $color-text
     &__social
       display: flex
+      list-style: none
+      padding: 0
       justify-content: center
       & > * 
         margin: 0.5rem
+      @media print
+        display: none
   
   &__grid
-    @media print
-      display: flex
-    @media (min-width: 600px)
+    @media print, (min-width: 600px)
       display: flex
 
+    flex-wrap: wrap
     list-style: none
     padding: 0
     & *, &
@@ -37,7 +39,8 @@
     &-item
       flex: 1
       text-align: center
-      margin-bottom: 2rem;
+      margin-bottom: 2rem
+      min-width: 150px
       
       &-image
         height: 5rem

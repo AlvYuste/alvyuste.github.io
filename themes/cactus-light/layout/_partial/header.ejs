@@ -1,15 +1,5 @@
 <header id="header">
-  <!--<% if (theme.customize.logo && theme.customize.logo.enabled) { %>
-    <% if (theme.customize.gravatar.email && theme.customize.logo.gravatar) { %>
-      <div id="logo" style="background-image: url(<%- gravatar(theme.customize.gravatar.email) %>);"></div>
-    <% } else { %>
-      <div id="logo" style="background-image: url(<%- url_for(theme.customize.logo.url) %>);"></div>
-    <% } %>
-  <% } %>-->
 
-  <div class="tar">
-    <a class="nav" href="<%- url_for(theme.nav['Projects']) %>">Projects</a>
-  </div>
   <div id="title">
     <a href="/">
       <h1>
@@ -21,9 +11,6 @@
         <%= config.subtitle %>
       </h2>
     </a>
-  </div>
-  <div class="tal">
-    <a class="nav" href="<%- url_for(theme.nav['About']) %>">About me</a>
   </div>
 
 </header>

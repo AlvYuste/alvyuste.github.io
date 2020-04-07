@@ -2,23 +2,25 @@
 <section class="cv">
   <article class="cv-info">
     <img class="cv-info__image" src="<%- gravatar(cv.contact.gravatar) %>" />
-    <h2 class="cv-info__name"><%- cv.contact.who %></h2>
-    <p class="cv-info__role"><%- cv.contact.what %></p>
-    <p class="cv-info__email"><%- cv.contact.email %></p>
-    <ul class="cv-info__social">
-      <% for(var i in cv.contact.social) { %>
-      <li>
-        <a
-          class="icon"
-          target="_blank"
-          href="<%- url_for(cv.contact.social[i]) %>"
-          title="<%= i %>"
-        >
-          <i class="fa fa-<%= i %>"></i>
-        </a>
-      </li>
-      <% } %>
-    </ul>
+    <div>
+      <h2 class="cv-info__name"><%- cv.contact.who %></h2>
+      <p class="cv-info__role"><%- cv.contact.what %></p>
+      <p class="cv-info__email"><%- cv.contact.email %></p>
+      <ul class="cv-info__social">
+        <% for(var i in cv.contact.social) { %>
+          <li>
+            <a
+            class="icon"
+            target="_blank"
+            href="<%- url_for(cv.contact.social[i]) %>"
+            title="<%= i %>"
+            >
+            <i class="fa fa-<%= i %>"></i>
+          </a>
+        </li>
+        <% } %>
+      </ul>
+    </div>
   </article>
   <article>
     <h2 class="cv__header">Currently</h2>
