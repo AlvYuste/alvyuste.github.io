@@ -96,7 +96,7 @@ cv:
       linkedin: https://www.linkedin.com/in/alvaroyuste/
   current:
     - who: Spotahome
-      what: Engineering Manager
+      what: Senior Engineering Manager
       when: Since March 2019
       where: Madrid
       image: /images/spotahome.png
@@ -174,9 +174,11 @@ cv:
       where: Benidorm
       image: /images/invattur.jpg
   skills:
+    - Data driven prioritizarion, OKRs and experimentation
+    - Hiring, career development, training, and crisis management
     - UX focused, Design Thinking and problem solving
-    - Experience with microservices and DevOps
-    - Multidisciplinary vision with design, business and coding
-    - Javascript Fullstack (Angular/React, Nodejs, MongoDB)
-    - System modeling, documentation and teaching
-    - Beautiful, performant and secure coding
+    - Distributed software architectures, CQRS, microservices
+    - Culture builidng around distributed ownership and autonomy
+    - Global vision merging custumer-centric design, business and coding
+    - Javascript Fullstack development (Angular/React, Nodejs, Mongo/SQL)
+    
