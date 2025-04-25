@@ -163,6 +163,11 @@ cv:
       where: Amsterdam
       image: /images/sbc.png
   education:
+    - who: The Power
+      what: The Power MBA
+      when: 2021
+      where: Online
+      image: /images/invattur.jpg
     - who: University of Alicante
       what: Multimedia Engineering Degree
       when: 2010-2014
