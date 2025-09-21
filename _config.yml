@@ -5,8 +5,9 @@
 # Site
 title: Alv
 subtitle: Yuste
-description: Hello! I'm Alvaro and I love **creating**.
-  I achieve it by **coding**, composing **music** and **writing**.
+description: Hello! I'm Alvaro and I love **creating** things with
+  **<a href="http://github.com/alvyustecoding" target="_blank">code</a>** and
+  **<a href="//music.alvaroyuste.com" target="_blank">music</a>**.
 author: Álvaro Yuste
 language: en_EN
 timezone: Europe/Madrid
@@ -91,9 +92,9 @@ cv:
     gravatar: hola@alvaroyuste.com
     social:
       github: http://github.com/alvyuste
-      twitter: http://twitter.com/alvyuste
-      facebook: https://www.facebook.com/AlvYuste
-      linkedin: https://www.linkedin.com/in/alvaroyuste/
+      instagram: https://www.instagram.com/AlvYuste
+      spotify: https://open.spotify.com/artist/696blWPbhweVGrVlm1b5ce
+      linkedin: https://www.linkedin.com/in/alvyuste/
   current:
     - who: Birda
       what: Head of Engineering
@@ -106,16 +107,16 @@ cv:
       where: Alicante
       image: /images/alicantefrontend.jpg
   experience:
+    - who: Spotahome
+      what: Sr Engineering Manager
+      when: Mar 2019 - Jun 2025
+      where: Madrid (Remote)
+      image: /images/spotahome.png
     - who: Open Webinars
       what: Teacher
-      when: Since May 2019
+      when: May 2019 - May 2020
       where: Madrid
       image: /images/openwebinars.png
-    - who: Spotahome
-      what: Senior Engineering Manager
-      when: Since March 2019
-      where: Madrid
-      image: /images/spotahome.png
     - who: SUEZ S.A.
       what: Frontend Architect
       when: Mar 2018 - Mar 2019
@@ -128,7 +129,7 @@ cv:
       image: /images/ua.jpg
     - who: Nitsnets S.L.
       what: Frontend Engineer
-      when: Mar 2016-Mar 2018
+      when: Mar 2016 - Mar 2018
       where: Alicante
       image: /images/nitsnets.jpg
     - who: Sonneil S.L.
