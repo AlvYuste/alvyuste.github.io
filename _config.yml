@@ -95,22 +95,27 @@ cv:
       facebook: https://www.facebook.com/AlvYuste
       linkedin: https://www.linkedin.com/in/alvaroyuste/
   current:
-    - who: Spotahome
-      what: Senior Engineering Manager
-      when: Since March 2019
-      where: Madrid
-      image: /images/spotahome.png
-    - who: Open Webinars
-      what: Teacher
-      when: Since May 2019
-      where: Madrid
-      image: /images/openwebinars.png
+    - who: Birda
+      what: Head of Engineering
+      when: Since Sept 2025
+      where: London (Remote)
+      image: /images/birda.jpg
     - who: Alicante Frontend
       what: Cofounder
       when: Since Oct 2016
       where: Alicante
       image: /images/alicantefrontend.jpg
   experience:
+    - who: Open Webinars
+      what: Teacher
+      when: Since May 2019
+      where: Madrid
+      image: /images/openwebinars.png
+    - who: Spotahome
+      what: Senior Engineering Manager
+      when: Since March 2019
+      where: Madrid
+      image: /images/spotahome.png
     - who: SUEZ S.A.
       what: Frontend Architect
       when: Mar 2018 - Mar 2019
